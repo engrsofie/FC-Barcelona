@@ -1,0 +1,117 @@
+/* --------------
+
+    Only for small mobile devices
+
+-------------------*/
+
+
+@media only screen and (max-width: 688px) {
+  .nav-bar {
+    display: none;
+  }
+  
+  /* banner style start */
+  .main-banner {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-banner-half-text-width {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-banner h1 {
+    width: 100vw;
+    padding-top: 130px;
+  }
+
+  .main-banner-half-image-width {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .main-banner-half-image-width img {
+    width: 100%;
+  }
+  /* banner section end */
+
+  /* players section start */
+  .players-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 70px 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .individual-player-box {
+    padding: 30px;
+  }
+
+  .player-name-and-detail h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  /* grid player section end */
+
+  /* video section start */
+  .v-s-flex-control {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  /* video section end */
+
+  /* proto gallery section start */
+
+  .photo-gallery {
+    width: 100%;
+  }
+
+  .full-gallary-wrap h3::after {
+    content: "";
+    background-color: #fc581b;
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    top: 65px;
+    left: 276px;
+  }
+  .photo-wrapper-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+  }
+  
+  .for-align{
+    text-align: center;
+  }
+  /* photo gallery section end */
+
+  /* signature and social icon section start */
+.footer-center{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .footer-center img{
+    display: block;
+    width: inherit;
+    padding: 0 90px;
+    box-sizing: border-box;
+  }
+  
+  .social-icon{
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+  }
+
+  .footer-center p{
+      text-align: center;
+  }
+
+}
